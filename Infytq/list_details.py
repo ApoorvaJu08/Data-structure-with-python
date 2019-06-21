@@ -35,3 +35,8 @@ marias_list.insert(1,"Salt")
 print(marias_list)
 print("List details:")
 list_details(marias_list)
+
+marias_list.pop(1)
+print(marias_list)
+print("List details: ")
+list_details(marias_list)
