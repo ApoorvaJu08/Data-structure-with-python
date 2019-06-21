@@ -17,3 +17,9 @@ marias_list = []
 print("Empty list created:")
 print("List details: ")
 list_details(marias_list)
+
+marias_list.append("Sugar")
+print("Maria's list after adding sugar:")
+print(marias_list)
+print("List details: ")
+list_details(marias_list)
